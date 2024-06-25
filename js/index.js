@@ -3,7 +3,7 @@ const button1 = document.getElementById("button1");
 const button2 = document.getElementById("button2");
 const block1 = document.getElementById("block1");
 const mainImg = document.getElementById("main-img");
-const body = document.querySelector("body");
+const body = document.getElementById("body");
 const block2 = document.getElementById("block2");
 const secondBlock = document.getElementById("second-block");
 const content = document.querySelector('.content');
@@ -15,6 +15,7 @@ button2.addEventListener("click", () => {
     block2.style.display = "none";
     content1.style.display = "block";
     content.style.color = "black";
+    body.style.backgroundColor = 'wheat';
   });
 
   button1.addEventListener("click", () => {
@@ -25,19 +26,20 @@ button2.addEventListener("click", () => {
     content.style.display = "block";
     content1.style.color = "white";
     content1.style.display = "none";
+    body.style.backgroundColor = 'gray';
   });
 
 
 //language
-const dark = document.getElementById('dark');
-const light = document.getElementById('light');
-const title = document.getElementById('title');
-const title1 = document.getElementById('title1');
-const prg = document.getElementById('prg');
-const prg1 = document.getElementById('prg1');
-const btn = document.getElementById('btn');
-const btn1 = document.getElementById('btn1');
-const lang = document.getElementById('lang');
+// const dark = document.getElementById('dark');
+// const light = document.getElementById('light');
+// const title = document.getElementById('title');
+// const title1 = document.getElementById('title1');
+// const prg = document.getElementById('prg');
+// const prg1 = document.getElementById('prg1');
+// const btn = document.getElementById('btn');
+// const btn1 = document.getElementById('btn1');
+// const lang = document.getElementById('lang');
 
 // dark.innerHTML = 'темный режим';
 // light.innerHTML = 'световой режим';
